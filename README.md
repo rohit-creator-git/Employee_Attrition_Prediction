@@ -46,37 +46,4 @@ The notebook walks through **data preprocessing, exploratory analysis, model bui
 
 ---  
 
-## 🚀 How to Run  
-1. Clone the repo:  
-   ```bash
-   git clone <your-repo-link>
-   cd Employee_Attrition_Prediction
-   ```  
 
-2. Install dependencies:  
-   ```bash
-   pip install -r requirements.txt
-   ```  
-
-3. Open Jupyter Notebook:  
-   ```bash
-   jupyter notebook Employee_Attrition_Prediction_NoXGB_Fixed.ipynb
-   ```  
-
-4. Load the dataset `HR_Employee_Attrition.csv` and run all cells.  
-
----  
-
-## 📊 Results  
-- Random Forest achieved the best performance with **~80% accuracy**.  
-- Key attrition drivers identified:  
-  - Overtime  
-  - Job Satisfaction  
-  - Distance From Home  
-
----  
-
-## 🔮 Future Improvements  
-- Add **Streamlit app** for interactive predictions.  
-- Hyperparameter tuning for better accuracy.  
-- Deploy as API / web app for HR managers.  
